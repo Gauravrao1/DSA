@@ -10,6 +10,6 @@ public class optimizeprime {
               }return true;
         }
         public static void main(String[] args) {
-                System.out.println(isprime(4));
+                System.out.println(isprime(4)); 
         }
 }
