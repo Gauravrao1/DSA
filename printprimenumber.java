@@ -17,9 +17,8 @@ public class printprimenumber {
         for(int num=2;num<=n;num++){
                 boolean isprime =isprime(num);
                 if(isprime==true){
-                        System.out.println(num);
-
-                }
+                   System.out.println(num);
+              }
         }return n;
    }
    public static void main(String[] var0) {
