@@ -5,7 +5,7 @@ public class Gcd {
                         int temp =b;
                         b = a%b;
                         a =temp; 
-                }
+                } 
                 int ans =a;
                 return ans;
         }
