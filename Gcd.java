@@ -9,7 +9,6 @@ public class Gcd {
                 int ans =a;
                 return ans;
         }
-
         public static void main(String[] args) {
                 System.out.println(getGcd(18, 12));
         }
