@@ -1,5 +1,3 @@
-
-
 public class perfect {
         static boolean checkperfectnumber(int num){
                 int sum =1;
