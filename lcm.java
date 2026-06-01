@@ -16,7 +16,6 @@ public class lcm {
                 int lcm =prod/gcd;
                 return lcm;
         }
-
         public static void main(String[] args) {
                 System.out.println(lcm(10, 20));
         }
