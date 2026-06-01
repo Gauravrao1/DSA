@@ -9,8 +9,8 @@ public class palidrome_number {
         return revnum;
                 
         }
- 
-        static boolean ispalidrome(int num){
+
+       static boolean ispalidrome(int num){
                 int originalnum =num;
                 int reversednum = reversenum(num);
                 if (originalnum == reversednum) {
