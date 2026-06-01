@@ -9,7 +9,7 @@ public class lcm {
                         }
                 int ans =a;
                 return ans;
-        }
+        }  
         static int lcm(int a,int b){
                 int gcd =getGcd(a, b);
                 int prod =a*b;
