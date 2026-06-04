@@ -13,6 +13,6 @@ public class student{
                 System.out.println(name+"sleeping");
         }
         public void bunk(){
-         System.out.println(name+"Bunking");
+         System.out.println(name+"Bunking"); 
         }
 }
