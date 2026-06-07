@@ -11,7 +11,7 @@ public class lcm {
                 return ans;
         }  
         static int lcm(int a,int b){
-                int gcd =getGcd(a, b);
+                int gcd =getGcd(a, b); 
                 int prod =a*b;
                 int lcm =prod/gcd;
                 return lcm;
