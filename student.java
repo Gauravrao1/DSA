@@ -2,7 +2,7 @@ public class student{
         public int id;
         public int age;
         public String name;
-        public int nos;
+        public int nos; 
         public student(){
                 System.out.println("Student Default   ctor called ");
         }
