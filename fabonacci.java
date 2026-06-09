@@ -2,8 +2,7 @@ import java.util.Scanner;
 
 public class fabonacci {
         static int fabonaccinum(int n){
-                if(n ==0) return 0;
-                if(n==1) return 1;
+                if(n ==0||n==1) return n;
                 return fabonaccinum(n-1)+fabonaccinum(n-2);
         }
         public static void main(String[] args) {
