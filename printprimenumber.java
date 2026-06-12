@@ -10,7 +10,7 @@ public class printprimenumber {
             }
          }
 
-         return true;
+         return tru e;
       }
    }
    static int printprimenumber(int n){
