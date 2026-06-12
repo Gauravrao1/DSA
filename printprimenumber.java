@@ -7,7 +7,7 @@ public class printprimenumber {
          for(int var1 = 2; var1 < var0; ++var1) {
             if (var0 % var1 == 0) {
                return false;  
-            }
+            } 
          }
 
          return tru e;
