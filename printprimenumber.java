@@ -2,7 +2,7 @@ public class printprimenumber {
 
    static boolean isprime(int var0) {
       if (var0 <= 0) {
-         return false;
+         return false; 
       } else {
          for(int var1 = 2; var1 < var0; ++var1) {
             if (var0 % var1 == 0) {
