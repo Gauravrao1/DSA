@@ -14,7 +14,7 @@ public class findalternativesum {
                 return printsumalternativesum(n-1)+n;
         }
         public static void main(String[] args) {
-                int n = 5;
+                int n = 3;
                 System.out.println(printsumalternativesum(n));
         }
 }
