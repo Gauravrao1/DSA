@@ -3,7 +3,7 @@ public class constructor {
                 student A =new student();
                 A.id =1;
                 A.age = 14;
-                A.name ="Ranu";
+                A.name ="Ranu"; 
                 A.nos =5;
                 System.out.println(A.name);
                 System.out.println(A.age);
