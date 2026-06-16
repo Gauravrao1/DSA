@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class countdigit {
-static int countdigitnum(int n){
+static int countdigitnum(int n){ 
     if(n <= 9)  
         return 1; 
 
