@@ -13,3 +13,4 @@ public class sumofarray {
                 System.out.println("Sum ="+ result);
         }
 }
+   
