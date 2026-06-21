@@ -1,3 +1,4 @@
+//String reverse using recusuion
 public class stringreverse {
         static String stringrev(String str,int idx){
                 if (str.length()==idx) return " ";
