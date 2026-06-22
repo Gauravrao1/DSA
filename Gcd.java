@@ -4,7 +4,7 @@ public class Gcd {
                 while (b!=0) {
                         int temp =b;
                         b = a%b;
-                        a =temp;  
+                        a =temp;    
                 }  
                 int ans =a;
                 return ans;
