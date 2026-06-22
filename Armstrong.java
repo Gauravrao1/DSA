@@ -7,7 +7,7 @@ public class Armstrong {
                 int cubeofDigit =digit*digit*digit;
                 sum =sum+cubeofDigit;
                 num =num/10;  
-            }
+            } 
             if (sum==original){
                 return true;
             }else{
