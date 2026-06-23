@@ -7,10 +7,20 @@ public class removeocurrenceofstring {
         if(currChar != 'a'){
                 return currChar+smallAns;
         }return smallAns;
+
 }
-        public static void main(String[] args) {
+
+ static String removeoccurence2(String str){
+        if (str.length()==0) return " ";
+        String smallAns = removeoccurence2(str.substring(1));
+        char currChar =str.charAt(0);
+        if(currChar != 'a'){
+                return currChar+smallAns;
+        }return smallAns;
+}        public static void main(String[] args) {
                 String str ="abcax";
                 int idx =0;
-             System.out.println(removeoccurence(str,idx));  
+             System.out.println(removeoccurence(str,idx));
+             System.out.println(removeoccurence2(str));  
         }
 }

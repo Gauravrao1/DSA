@@ -1,7 +1,7 @@
 //String reverse using recusuion
 public class stringreverse {
         static String stringrev(String str,int idx){
-                if (str.length()==idx) return " ";
+                if (str.length()==idx) return "";
         return stringrev(str, idx+1)+str.charAt(idx);
         }
 
