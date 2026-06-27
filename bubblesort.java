@@ -7,7 +7,7 @@ public class bubblesort {
                                   a[j]=a[j+1];
                                  a[j+1]=temp;
                                 }
-                        }
+                        }. 
                 }
         }
       public static void main(String[] args) {
