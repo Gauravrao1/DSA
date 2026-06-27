@@ -7,7 +7,7 @@ Output: 0245679 11
 public class Subset {
         static  void subarrayprintsum(int []a,int n,int idx ,int currsum){
                 if (idx >=n) {
-                 System.out.println(currsum);
+                 System.out.println(currsum); 
                  return;
                 }
 
