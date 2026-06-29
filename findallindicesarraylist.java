@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 /*arr →1,4,3,4
 target →4
-ans(arraylist)→{1,3}*/
+ans(arraylist)→{1,3}*/ 
 
 public class findallindicesarraylist {
 static ArrayList<Integer> allindice(int []a,int n,int target ,int idx){
