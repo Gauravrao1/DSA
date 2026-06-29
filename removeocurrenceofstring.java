@@ -4,7 +4,7 @@ public class removeocurrenceofstring {
         if (str.length()==idx) return " ";
         String smallAns = removeoccurence(str,idx+1);
         char currChar =str.charAt(idx);
-        if(currChar != 'a'){
+        if(currChar != 'a'){ 
                 return currChar+smallAns;
         }return smallAns;
 
