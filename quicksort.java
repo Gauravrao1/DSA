@@ -36,8 +36,6 @@ if(i<pividx&&j>pividx){swap(arr, i, j);
 }
 
 
-
-
 return pividx;
 }
     public static void main(String[] args) {
@@ -47,7 +45,7 @@ return pividx;
 
 
          quicksort1(arr, 0, arr.length);
-
+System.out.println(" ");
         System.out.println("Array After sorting");
         displayarr(arr);
      }   
