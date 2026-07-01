@@ -11,7 +11,7 @@ public class frogjump {
           int op1 = Math.abs(arr[idx]-arr[idx+1])+frogjumpsum(arr, idx+1, n);
              if (idx ==n-2) return op1;
 
-             
+                 
              int op2=Math.abs(arr[idx]-arr[idx+2])+frogjumpsum(arr, idx+2, n);
              return Math.min(op1,op2);
         }
