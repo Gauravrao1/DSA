@@ -4,7 +4,7 @@ public class findallindices {
         static void findallindicesnum(int arr[],int n,int target,int idx){
                 if(idx>=n){
                         return;
-                }
+                } 
                 if(arr[idx]==target){
                 System.out.println(idx);}
 
