@@ -5,7 +5,7 @@ public class lcm {
                 while (b!=0) {
                         int temp =b;
                         b = a%b;
-                        a =temp;
+                        a =temp; 
                         }
                 int ans =a;
                 return ans;
