@@ -8,7 +8,7 @@ static void inserstionsortarr(int []a){
                 a[j] =a[j-1];
                 a[j-1]=temp;
                 j--;
-             }
+             } 
 
         }
 }
