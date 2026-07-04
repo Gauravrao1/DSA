@@ -9,7 +9,7 @@ public class linearsearch {
                 int target=15;
                if (linearsearchinarr(arr,0,target)) {//==will known result true
                 System.out.println("yes");
-                
+                 
                } else{
                 System.out.println("No");
                }
