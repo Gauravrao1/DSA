@@ -10,7 +10,7 @@ static ArrayList<Integer> allindice(int []a,int n,int target ,int idx){
           }
           ArrayList<Integer>ans =new ArrayList<>();
           if(a[idx]==target){
-                ans.add(idx);  
+                ans.add(idx);   
           }
        ArrayList<Integer> smallAns=   allindice(a, n, target, idx+1);
        ans.addAll(smallAns);
