@@ -5,7 +5,7 @@ public class constructor {
                 A.age = 14; 
                 A.name ="Ranu"; 
                 A.nos =5;
-                System.out.println(A.name);
+                System.out.println(A.name); 
                 System.out.println(A.age); 
                 System.out.println(A.id);
                 System.out.println(A.nos); 
