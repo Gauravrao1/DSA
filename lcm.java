@@ -4,7 +4,7 @@ public class lcm {
                 //gcd(a,b)=gcd(b,a%b)
                 while (b!=0) {
                         int temp =b;
-                        b = a%b;
+                        b = a%b; 
                         a =temp; 
                         }
                 int ans =a;
