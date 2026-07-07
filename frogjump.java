@@ -4,7 +4,7 @@ Here, a cost of hi hj is incurred, where j is the stone to land on.
 Find the minimum possible total cost incurred before the frog reaches Stone N.
 Input n= 4
 arr[]=10 30 40 20
-Output= 30 */
+Output= 30 */ 
 public class frogjump {
         static int frogjumpsum(int arr [], int idx ,int n){
                 if (n-1==idx)  return 0; 
