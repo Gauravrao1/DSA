@@ -6,7 +6,7 @@ static void inserstionsortarr(int []a){
              while (j>0&&a[j]<a[j-1]) {
                 int temp =a[j];
                 a[j] =a[j-1];
-                a[j-1]=temp;
+                a[j-1]=temp; 
                 j--;
              } 
 
