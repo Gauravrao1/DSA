@@ -3,7 +3,7 @@ public class mergsort {
            if (l>=r)return; 
           int mid =(l+r)/2;
            mergesoort(arr, l, mid);
-           mergesoort(arr, mid+1, r);
+           mergesoort(arr, mid+1, r); 
           merge(arr, l, mid, r);
         }
 
