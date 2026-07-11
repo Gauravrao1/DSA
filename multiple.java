@@ -3,7 +3,7 @@ static void printmutiple(int n,int k){
         if (k==1) {
                 System.out.println(n);
                 return;
-        }
+        } 
         printmutiple(n, k-1); 
         System.out.println(n*k);
 }
