@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class fabonacci {
+public class fabonacci { 
         static int fabonaccinum(int n){  
                 if(n ==0||n==1) return n;
                 return fabonaccinum(n-1)+fabonaccinum(n-2);
