@@ -4,7 +4,7 @@ public class keypadcombination {
                         System.out.print(res+" ");
                         return; 
                 }
-                int currnum=dig.charAt(0)-'0';
+                int currnum=dig.charAt(0)-'0'; 
                 String currechoices =kp[currnum];
                 for(int i=0;i<currechoices.length();i++){
                 combination(dig.substring(1), kp, res+currechoices.charAt(i));
