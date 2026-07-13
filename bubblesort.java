@@ -4,7 +4,7 @@ public class bubblesort {
             for (int j = 0; j < a.length - i - 1; j++) {
                 if (a[j] > a[j + 1]) {
                     int temp = a[j];
-                    a[j] = a[j + 1];
+                    a[j] = a[j + 1]; 
                     a[j + 1] = temp;
                 }  
             }  
