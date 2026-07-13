@@ -3,7 +3,7 @@ public class keypadcombination {
                 if(dig.length()==0){
                         System.out.print(res+" ");
                         return; 
-                }
+                } 
                 int currnum=dig.charAt(0)-'0'; 
                 String currechoices =kp[currnum];
                 for(int i=0;i<currechoices.length();i++){
