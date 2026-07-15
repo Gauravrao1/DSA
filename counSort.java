@@ -5,7 +5,7 @@ public class counSort {
                         if(arr[i]>mx){
                                 mx=arr[i];
                         }
-                }
+                } 
                 return mx;
         }
         static void basicCountSort(int []arr){
