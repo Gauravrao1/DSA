@@ -6,7 +6,7 @@ public class counSort {
                                 mx=arr[i];
                         }
                 } 
-                return mx;
+                return mx; 
         }
         static void basicCountSort(int []arr){
                 int max =findMax(arr);
