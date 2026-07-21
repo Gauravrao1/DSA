@@ -9,7 +9,7 @@ public class Binarysearch {
             int mid = (str + end) / 2;   // Recalculate every iteration
 
             if (arr[mid] == tar)
-                return true;
+                return true; 
 
             if (arr[mid] > tar)
                 end = mid - 1;
