@@ -9,7 +9,7 @@ public class Subset {
                 if (idx >=n) { 
                  System.out.println(currsum); 
                  return;
-                }
+                } 
  
                 subarrayprintsum(a, n, idx+1,currsum+a[idx]);
                 subarrayprintsum(a, n, idx+1, currsum);
