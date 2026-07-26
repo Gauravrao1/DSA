@@ -3,7 +3,7 @@ Input: arr[] = {2,3}
 Output: 0235
 Input: arr[] = {2, 4, 5}
 Output: 0245679 11
- */
+ */ 
 public class Subset {  
         static  void subarrayprintsum(int []a,int n,int idx ,int currsum){
                 if (idx >=n) { 
