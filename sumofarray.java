@@ -2,7 +2,7 @@
 import java.util.*;
 public class sumofarray {
         static int sumofarray(int arr[],int idx){
-                 if (idx ==arr.length-1) {b
+                 if (idx ==arr.length-1) {
                 return arr[idx];
                 }
                return arr[idx]+sumofarray(arr, idx+1);
