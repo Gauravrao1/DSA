@@ -23,7 +23,16 @@ static boolean elementsearch(int[]arr,int n,int mid,int  str,int end,int tar){
  }
 return false;
 }
-        public static void main(String[] args) {
+   
+
+
+
+
+
+
+
+
+public static void main(String[] args) {
                 int arr[] ={25,5,6,6,8,9,9,9};
                 int n =arr.length-1;
                 int tar=5;
