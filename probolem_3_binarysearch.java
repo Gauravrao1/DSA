@@ -15,6 +15,24 @@ public class probolem_3_binarysearch {
                 System.out.println("Enter Your num");
                 int x =sc.nextInt();
               System.out.println(squarefloor(x));
+              System.out.println(squarefloor_i(x));
         }
+        static int squarefloor_i(int x){
+                int st=0;
+                int end =x;
+                int ans =-1;
+                while (st<=end) {
+                int mid = st+(end -st)/2;
+                int val =mid*mid;
+                if (val==x)return mid;
+                else if(val<x){
+                        ans =mid;
+                        st =mid+1;
+
+                }else
+                end =mid-1;
+                }
+                return ans;
         
+}
 }
