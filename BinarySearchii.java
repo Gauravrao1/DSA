@@ -5,7 +5,7 @@ public class BinarySearchii {
         while(st <= end){
             int mid = (st + end)/2;
             if(target == a[mid]){
-                return true;
+                return true; 
             } else if(target < a[mid]){
                 end = mid-1;
             } else {
