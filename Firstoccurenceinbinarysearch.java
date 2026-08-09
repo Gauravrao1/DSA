@@ -2,7 +2,7 @@ public class Firstoccurenceinbinarysearch {
         static int firstOcc(int []a,int x){
                int n =a.length;
                int st=0,end=n-1; 
-               int fo=-1;
+               int fo=-1; 
                while (st<=end) {
                 int mid =st+(end-st)/2;
                 if (a[mid]==x ) {
