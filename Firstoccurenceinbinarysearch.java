@@ -4,7 +4,7 @@ public class Firstoccurenceinbinarysearch {
                int st=0,end=n-1; 
                int fo=-1; 
                while (st<=end) {
-                int mid =st+(end-st)/2;
+                int mid =st+(end-st)/2; 
                 if (a[mid]==x ) {
                       fo=mid;   
                       end=mid-1;
