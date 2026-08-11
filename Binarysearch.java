@@ -4,7 +4,7 @@ public class Binarysearch {
         int str = 0;
         int end = arr.length - 1;
 
-        while (str <= end) {
+        while (str <= end) { 
 
             int mid = (str + end) / 2;   // Recalculate every iteration
 
