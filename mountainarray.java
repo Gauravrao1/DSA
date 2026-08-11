@@ -4,7 +4,7 @@ public class mountainarray {
         int st =0,end =a.length -1;
         int ans=-1;
         while(st<=end){
-            int  mid =st+(end-st)/2;
+            int  mid =st+(end-st)/2; 
             if(a[mid]<a[mid+1]){
                 ans =mid+1;
                 st =mid+1;
