@@ -5,7 +5,7 @@ Find the minimum possible total cost incurred before the frog reaches Stone N.
 Input n= 4
 arr[]=10 30 40 20
 Output= 30 */ 
-public class frogjump {
+public class frogjump { 
         static int frogjumpsum(int arr [], int idx ,int n){
                 if (n-1==idx)  return 0; 
           int op1 = Math.abs(arr[idx]-arr[idx+1])+frogjumpsum(arr, idx+1, n);
