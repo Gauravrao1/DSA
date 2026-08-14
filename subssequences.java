@@ -8,7 +8,7 @@ public class subssequences {
         static ArrayList<String> getSSQ(String str){
                 ArrayList<String> ans =new ArrayList<>();
                 if (str.length()==0) {
-                        ans.add(""); 
+                        ans.add("");  
                         return ans;
                         
                 }
