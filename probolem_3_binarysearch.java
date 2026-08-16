@@ -7,7 +7,7 @@
 import java.util.Scanner;
  
 public class probolem_3_binarysearch {
-        static int squarefloor(int x){
+        static int squarefloor(int x){ 
                 return(int) Math.floor(Math.sqrt(x));
         }
         public static void main(String[] args) {
