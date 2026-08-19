@@ -6,7 +6,7 @@ Input:
 Matrix [[1,3,5,7], [10,11,16,20], [23,30,34,60]], target = 3
 Output:
 true */
-
+ 
 public class twodproblembinarysearch {
 public static boolean searchMatrix(int[][] a, int target) {
         int n = a.length,m =a[0].length;
