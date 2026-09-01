@@ -20,7 +20,7 @@ public class palidrome_number {
                         System.out.println("it is not palindrome");
                         return false;
                 }   
-               
+                
         }
         public static void main(String[] args) {
             System.out.println(ispalidrome(121));    
