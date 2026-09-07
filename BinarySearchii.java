@@ -12,7 +12,7 @@ public class BinarySearchii {
                 st = mid+1;
             }
         }
-        return false;
+         return false;
     }
     static boolean recBinarySearch(int[] a, int st, int end, int target){
         if(st > end) return false; // base case
