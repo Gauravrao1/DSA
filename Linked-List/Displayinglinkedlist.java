@@ -1,12 +1,13 @@
-public class basicll{
+public class Displayinglinkedlist {
         public static class Node{
                 int data;
                 Node next;
                 Node(int data){
                         this.data=data;
+
                 }
         }
-        public static void main(String[] args) {
+        public static void main(String args[]){
             Node sa =new Node(5);
             Node sb =new Node(4);
             Node sc =new Node(3);
@@ -15,7 +16,12 @@ public class basicll{
             sa.next=sb;
             sb.next =sc;
             sc.next=sd;
-            sd.next =se;
-            System.out.println(sb.next);    
+            sd.next =se;  
+            Node temp =sa;
+            for (int i=0;i<=5;i++) {
+                System.out.println(temp.data+" ");
+                temp =temp.next;
+                
+            }
         }
 }
