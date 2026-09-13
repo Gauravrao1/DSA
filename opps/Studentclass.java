@@ -11,4 +11,4 @@ public class Studentclass {
         x.percent = 95.6; 
         System.out.println(x.name); 
     } 
-}
+} 
