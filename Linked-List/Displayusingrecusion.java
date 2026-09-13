@@ -5,7 +5,13 @@ public class Displayusingrecusion {
           Node(int data){
           this.data=data;
          }   
- }
+ } public  static void display(Node head){
+        if (head==null) return;
+         System.out.print(" "+head.data);
+         display(head.next);
+                
+        }
+
      public static void printlist(Node head){
           while(head!=null){
                 System.out.print(head.data+" ");
@@ -23,7 +29,7 @@ public class Displayusingrecusion {
                 b.next=c;
                 c.next=d;
                 d.next=e;
-                printlist(head);
+                display(head);
 
           }
       }  
