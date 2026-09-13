@@ -18,10 +18,11 @@ public class Displayinglinkedlist {
             sc.next=sd;
             sd.next =se;  
             Node temp =sa;
-            for (int i=0;i<=5;i++) {
-                System.out.println(temp.data+" ");
-                temp =temp.next;
-                
-            }
+            //displying
+                while (temp!=null) {
+                System.out.print(temp.data+" ");
+                temp =temp.next;     
+                }
+            
         }
 }
