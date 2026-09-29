@@ -9,7 +9,7 @@ public class Linkedlistlength {
                 int count =0;
                 while(head!=null){
                 count++;
-                head=head.next;
+                head=head.next; 
                 }
              return count;
 
