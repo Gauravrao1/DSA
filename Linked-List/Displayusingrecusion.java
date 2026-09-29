@@ -3,7 +3,7 @@ public class Displayusingrecusion {
           int data;
           Node next;
           Node(int data){
-          this.data=data;
+          this.data=data;  
          }   
  } public  static void display(Node head){
         if (head==null) return;
